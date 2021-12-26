@@ -129,11 +129,11 @@ body {
     padding: 40px;
 }
 
-.conteudo-principal-escrito-botao:hover {
+.cont-principal-escrito-botao:hover {
     background-color: rgba(74, 255, 171, 0.53);
 }
 
-.cabecalho-menu-item:hover {    
+.menu-item:hover {    
     text-decoration: underline;
     text-decoration-color: #FFFFFF;
     
