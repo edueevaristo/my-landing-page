@@ -142,7 +142,7 @@ body {
     
 }
 
-.cont-principal-escrito-botao:hover{
+.cont-principal-escrito-botao:hover {
     top:-4px;box-shadow:0 4px 4px #999;
     transition: all .2s ease-in-out
 }
