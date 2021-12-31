@@ -18,6 +18,7 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 24px;
+    
 }
 
 .topo-img {
@@ -79,6 +80,8 @@ body {
     font-weight: 400;
     font-size: 24px;
     color: #2F2325;
+    Position:relative;
+    top:0
 }
 
 .cont-principal-imagem {
@@ -86,10 +89,10 @@ body {
 }
 
 .cont-principal-escrito-imagem {
-    width: 457.05px;
-    height: 557.58px;
-    left: 1257.92px;
-    top: 134px;
+    width: 724px;
+    height: 677px;
+    left: 1081px;
+    top: 22px;
     padding: 30px;
 }
 
@@ -129,12 +132,17 @@ body {
     padding: 40px;
 }
 
-.conteudo-principal-escrito-botao:hover {
+.cont-principal-escrito-botao:hover {
     background-color: rgba(74, 255, 171, 0.53);
 }
 
-.cabecalho-menu-item:hover {    
+.menu-item:hover {    
     text-decoration: underline;
     text-decoration-color: #FFFFFF;
     
+}
+
+.cont-principal-escrito-botao:hover{
+    top:-4px;box-shadow:0 4px 4px #999;
+    transition: all .2s ease-in-out
 }
